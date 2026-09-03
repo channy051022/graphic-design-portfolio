@@ -17,33 +17,18 @@
 }
 
 :root {
-  /* Default to Light Mode with Warm White */
-  --background: #f8f8f7;
-  --foreground: #0a0a0a;
+  /* Force Premium Dark Mode */
+  --background: #0a0a0a;
+  --foreground: #f8f8f7;
   
-  --muted: #e5e5e3;
-  --muted-foreground: #5a5a58;
+  --muted: #1f1f1f;
+  --muted-foreground: #a3a3a1;
   
   /* Electric Orange-Red Accent */
   --accent: #ff451a;
   --accent-foreground: #ffffff;
   
-  --border: #dcdccf;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #f8f8f7;
-    
-    --muted: #1f1f1f;
-    --muted-foreground: #a3a3a1;
-    
-    --accent: #ff451a;
-    --accent-foreground: #ffffff;
-    
-    --border: #262626;
-  }
+  --border: #262626;
 }
 
 /* Base Styles */

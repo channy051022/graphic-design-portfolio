@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -6,9 +7,14 @@ export function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           <div>
-            <h2 className="text-3xl font-display font-bold tracking-tight mb-2 uppercase">
-              CYREL BALAWAG
-            </h2>
+            <div className="relative w-24 h-12 md:w-32 md:h-16 mb-4">
+              <Image 
+                src="/images/asset/logo.png" 
+                alt="Christian Faith Mestola Logo" 
+                fill 
+                className="object-contain object-left" 
+              />
+            </div>
             <p className="text-muted-foreground">
               Graphic Designer × Creative Developer
             </p>
@@ -25,8 +31,7 @@ export function Footer() {
         </div>
         
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-border/50 text-sm text-muted-foreground">
-          <p>© 2026 Cyrel Balawag. All rights reserved.</p>
-          <p className="mt-4 md:mt-0 tracking-widest text-xs">BUILT WITH NEXT.JS</p>
+          <p>© 2026 Christian Faith Mestola - asyncdev. All rights reserved.</p>
         </div>
       </div>
     </footer>

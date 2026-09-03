@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { MobileMenu } from "./MobileMenu";
@@ -46,9 +47,17 @@ export function Navbar() {
         <div className="container mx-auto px-6 flex items-center justify-between">
           <Link
             href="/"
-            className="text-xl font-display font-bold tracking-tight uppercase hover:opacity-70 transition-opacity z-50 relative"
+            className="hover:opacity-70 transition-opacity z-50 relative flex items-center"
           >
-            CYREL BALAWAG
+            <div className="relative w-20 h-10 md:w-24 md:h-12">
+              <Image 
+                src="/images/asset/logo.png" 
+                alt="Christian Faith Mestola Logo" 
+                fill 
+                className="object-contain object-left" 
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Nav */}

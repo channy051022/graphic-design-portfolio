@@ -65,7 +65,7 @@ export function MobileMenu({ isOpen, onClose, links, currentPath }: MobileMenuPr
       
       <div className="absolute bottom-10 left-0 right-0 text-center">
         <p className="text-sm text-muted-foreground uppercase tracking-widest">
-          CYREL BALAWAG © 2026
+          CHRISTIAN FAITH MESTOLA © 2026
         </p>
       </div>
     </div>

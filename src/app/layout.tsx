@@ -5,6 +5,7 @@ import { LenisProvider } from "@/components/providers/LenisProvider";
 import { Navbar } from "@/components/navigation/Navbar";
 import { Footer } from "@/components/footer/Footer";
 import { CustomCursor } from "@/components/ui/CustomCursor";
+import { ChatBot } from "@/components/ui/ChatBot";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -17,7 +18,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "CYREL BALAWAG — Graphic Designer × Creative Developer",
+  title: "CHRISTIAN FAITH MESTOLA — Graphic Designer × Creative Developer",
   description: "I turn ideas into visual experiences. Portfolio of Cyrel Balawag, Graphic Designer and Creative Frontend Developer.",
 };
 
@@ -34,6 +35,7 @@ export default function RootLayout({
           <Navbar />
           <main className="flex-grow pt-24">{children}</main>
           <Footer />
+          <ChatBot />
         </LenisProvider>
       </body>
     </html>

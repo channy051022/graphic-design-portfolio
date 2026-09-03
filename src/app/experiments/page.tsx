@@ -1,7 +1,7 @@
 import { ExperimentGallery } from "@/components/experiments/ExperimentGallery";
 
 export const metadata = {
-  title: "Experiments — CYREL BALAWAG",
+  title: "Experiments — CHRISTIAN FAITH MESTOLA",
   description: "A playground for creative coding, motion design, and digital art.",
 };
 

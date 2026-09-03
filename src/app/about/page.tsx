@@ -1,7 +1,7 @@
 import { AboutSection } from "@/components/about/AboutSection";
 
 export const metadata = {
-  title: "About — CYREL BALAWAG",
+  title: "About — CHRISTIAN FAITH MESTOLA",
   description: "Learn more about my background, skills, and creative process.",
 };
 

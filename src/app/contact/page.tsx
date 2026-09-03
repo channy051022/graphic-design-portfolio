@@ -1,7 +1,7 @@
 import { ContactSection } from "@/components/contact/ContactSection";
 
 export const metadata = {
-  title: "Contact — CYREL BALAWAG",
+  title: "Contact — CHRISTIAN FAITH MESTOLA",
   description: "Get in touch for freelance projects, collaborations, and creative opportunities.",
 };
 

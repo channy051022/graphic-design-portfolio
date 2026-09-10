@@ -12,46 +12,42 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "urban-bites",
-    title: "URBAN BITES",
+    slug: "xforce",
+    title: "XFORCE",
     category: "Brand Identity",
     year: "2026",
     role: "Graphic Designer",
     description: "A complete brand identity redesign for a modern urban food delivery service. The goal was to create a vibrant, energetic visual system that stands out in a crowded market.",
     tools: ["Illustrator", "Photoshop", "Figma"],
-    coverImage: "/images/projects/placeholder.jpg",
+    coverImage: "/images/projects/XFORCE.jpg",
     images: [
-      "/images/projects/placeholder.jpg",
-      "/images/projects/placeholder.jpg",
-      "/images/projects/placeholder.jpg"
+      "/images/projects/XFORCE.jpg"
     ]
   },
   {
-    slug: "nova",
-    title: "NOVA",
+    slug: "project-02",
+    title: "PROJECT 02",
     category: "Social Media Campaign",
     year: "2025",
     role: "Art Director",
     description: "An exploratory social media campaign for a conceptual tech startup focused on space exploration and satellite data.",
     tools: ["Photoshop", "After Effects", "Figma"],
-    coverImage: "/images/projects/placeholder.jpg",
+    coverImage: "/images/projects/IMG_3168.jpeg",
     images: [
-      "/images/projects/placeholder.jpg",
-      "/images/projects/placeholder.jpg"
+      "/images/projects/IMG_3168.jpeg"
     ]
   },
   {
-    slug: "form",
-    title: "FORM",
+    slug: "triton",
+    title: "TRITON",
     category: "UI/UX Concept",
     year: "2025",
     role: "UI/UX Designer",
     description: "A conceptual redesign for an architecture firm's portfolio website. The focus was on minimalism, strong typography, and large imagery.",
     tools: ["Figma", "Next.js", "Tailwind CSS"],
-    coverImage: "/images/projects/placeholder.jpg",
+    coverImage: "/images/projects/triton.jpg",
     images: [
-      "/images/projects/placeholder.jpg",
-      "/images/projects/placeholder.jpg"
+      "/images/projects/triton.jpg"
     ]
   },
   {

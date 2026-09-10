@@ -39,88 +39,62 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
   return (
     <article className="min-h-screen bg-background">
-      {/* Project Hero */}
-      <header className="pt-32 pb-16 md:pt-48 md:pb-24">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-black uppercase tracking-tighter mb-6 leading-[0.9]">
-              {project.title}
-            </h1>
-            
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-8 border-t border-b border-border mt-12 mb-16">
-              <div>
-                <p className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">Category</p>
-                <p className="text-sm font-medium tracking-wide">{project.category}</p>
-              </div>
-              <div>
-                <p className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">Year</p>
-                <p className="text-sm font-medium tracking-wide">{project.year}</p>
-              </div>
-              <div>
-                <p className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">Role</p>
-                <p className="text-sm font-medium tracking-wide">{project.role}</p>
-              </div>
-              <div>
-                <p className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">Tools</p>
-                <p className="text-sm font-medium tracking-wide">{project.tools.join(", ")}</p>
+      <div className="container mx-auto px-6 pt-16 pb-24 md:pt-24 md:pb-32">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
+          
+          {/* Sidebar Info (Left Side) */}
+          <div className="lg:col-span-4">
+            <div className="sticky top-24">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-black uppercase tracking-tighter mb-8 leading-[0.9]">
+                {project.title}
+              </h1>
+              
+              <div className="flex flex-wrap gap-x-8 gap-y-4 py-6 border-t border-b border-border">
+                <div>
+                  <p className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">Category</p>
+                  <p className="text-sm font-medium tracking-wide">{project.category}</p>
+                </div>
+                <div>
+                  <p className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">Year</p>
+                  <p className="text-sm font-medium tracking-wide">{project.year}</p>
+                </div>
+                <div>
+                  <p className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">Role</p>
+                  <p className="text-sm font-medium tracking-wide">{project.role}</p>
+                </div>
+                <div>
+                  <p className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">Tools</p>
+                  <p className="text-sm font-medium tracking-wide">{project.tools.join(", ")}</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="container mx-auto px-6 mt-8">
-          <div className="relative w-full aspect-[16/9] md:aspect-[21/9] bg-muted">
-            <Image
-              src={project.coverImage}
-              alt={project.title}
-              fill
-              priority
-              className="object-cover"
-              sizes="100vw"
-            />
-          </div>
-        </div>
-      </header>
-
-      {/* Overview & Content */}
-      <section className="py-24 md:py-32">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
-            <div className="lg:col-span-4">
-              <h2 className="text-2xl font-display font-bold uppercase tracking-tight mb-6">
-                Overview
-              </h2>
-            </div>
-            <div className="lg:col-span-8">
-              <p className="text-xl md:text-2xl font-medium leading-relaxed text-balance">
-                {project.description}
-              </p>
+          {/* Images (Right Side) */}
+          <div className="lg:col-span-8">
+            <div className="space-y-8 md:space-y-16">
+              {/* Visual Gallery */}
+              {project.images.map((image, index) => (
+                <div 
+                  key={index}
+                  className="relative w-full bg-muted flex items-center justify-center overflow-hidden"
+                >
+                  <Image
+                    src={image}
+                    alt={`${project.title} visual ${index + 1}`}
+                    width={1920}
+                    height={1080}
+                    priority={index === 0}
+                    className="w-full h-auto"
+                    sizes="(max-width: 1024px) 100vw, 66vw"
+                  />
+                </div>
+              ))}
             </div>
           </div>
           
-          {/* Visual Gallery */}
-          <div className="mt-32 space-y-8 md:space-y-16">
-            {project.images.map((image, index) => (
-              <div 
-                key={index}
-                className={`relative w-full bg-muted ${
-                  index % 3 === 0 ? "aspect-[16/9]" : 
-                  index % 3 === 1 ? "aspect-[4/5] w-full md:w-[60%] ml-auto" : 
-                  "aspect-[4/3] w-full md:w-[80%]"
-                }`}
-              >
-                <Image
-                  src={image}
-                  alt={`${project.title} visual ${index + 1}`}
-                  fill
-                  className="object-cover"
-                  sizes="100vw"
-                />
-              </div>
-            ))}
-          </div>
         </div>
-      </section>
+      </div>
 
       {/* Next Project */}
       <NextProject project={nextProject} />

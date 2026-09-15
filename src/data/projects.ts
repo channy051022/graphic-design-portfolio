@@ -11,6 +11,72 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+        {
+    slug: "Custom Sticker",
+    title: "Custom Sticker",
+    category: "Sticker",
+    year: "2026",
+    role: "Graphic Designer",
+    description: "A series of stickers for a custom sticker business.",
+    tools: ["Photoshop", "Figma"],
+    coverImage: "/images/projects/Motorcycle Sticker.png",
+    images: [
+      "/images/projects/Motorcycle Sticker.png"
+    ]
+  },
+      {
+    slug: "Pubmats 2",
+    title: "Pubmats 2",
+    category: "Social Media Campaign",
+    year: "2026",
+    role: "Graphic Designer",
+    description: "A series of editorial posters exploring the relationship between Swiss graphic design principles and modern web brutalism.",
+    tools: ["Photoshop", "Figma"],
+    coverImage: "/images/projects/pubmats 2.jpg",
+    images: [
+      "/images/projects/pubmats 2.jpg"
+    ]
+  },
+      {
+    slug: "Posters",
+    title: "Posters",
+    category: "Posters",
+    year: "2026",
+    role: "Graphic Designer",
+    description: "A series of posters that i made for a school event.",
+    tools: ["Photoshop", "Figma"],
+    coverImage: "/images/projects/poster design.jpg",
+    images: [
+      "/images/projects/poster design.jpg"
+    ]
+  },
+      {
+    slug: "Corporation",
+    title: "Corporation",
+    category: "Corporation",
+    year: "2026",
+    role: "Graphic Designer",
+    description: "A series of posters for a corporation.",
+    tools: ["Photoshop", "Figma"],
+    coverImage: "/images/projects/corporation.jpg",
+    images: [
+      "/images/projects/corporation.jpg"
+    ]
+  },
+      {
+    slug: "Pubmats",
+    title: "Pubmats",
+    category: "Social Media Campaign",
+    year: "2026",
+    role: "Graphic Designer",
+    description: "A series of editorial posters exploring the relationship between Swiss graphic design principles and modern web brutalism.",
+    tools: ["Photoshop", "Figma"],
+    coverImage: "/images/projects/pubmats 1.jpg",
+    images: [
+      "/images/projects/pubmats 1.jpg"
+    ]
+  },
+
   {
     slug: "xforce",
     title: "XFORCE",
@@ -49,20 +115,5 @@ export const projects: Project[] = [
     images: [
       "/images/projects/triton.jpg"
     ]
-  },
-  {
-    slug: "frame",
-    title: "FRAME",
-    category: "Editorial Poster Series",
-    year: "2024",
-    role: "Graphic Designer",
-    description: "A series of editorial posters exploring the relationship between Swiss graphic design principles and modern web brutalism.",
-    tools: ["InDesign", "Illustrator"],
-    coverImage: "/images/projects/placeholder.jpg",
-    images: [
-      "/images/projects/placeholder.jpg",
-      "/images/projects/placeholder.jpg",
-      "/images/projects/placeholder.jpg"
-    ]
-  }
+    },
 ];

@@ -19,11 +19,17 @@ export const projects: Project[] = [
     role: "Graphic Designer",
     description: "A series of stickers for a custom sticker business.",
     tools: ["Adobe Illustrator",],
-    coverImage: "/images/projects/bike1.jpg",
+    coverImage: "/images/projects/bike7.jpg",
     images: [
       "/images/projects/bike1.jpg",
       "/images/projects/bike2.jpg",
       "/images/projects/bike3.jpg",
+      "/images/projects/bike4.jpg",
+      "/images/projects/bike5.jpg",
+      "/images/projects/bike6.jpg",
+      "/images/projects/bike7.jpg",
+      "/images/projects/bike8.jpg",
+      
     ]
   },
      {
@@ -39,6 +45,8 @@ export const projects: Project[] = [
       "/images/projects/brand poster 3.jpg",
       "/images/projects/brand poster 2.jpg",
       "/images/projects/brand poster 1.jpg",
+      "/images/projects/brand poster 4.jpg",
+      "/images/projects/brand poster 5.jpg",
     ]
   },
         {
@@ -69,6 +77,21 @@ export const projects: Project[] = [
     coverImage: "/images/projects/poster design.jpg",
     images: [
       "/images/projects/poster design.jpg"
+    ]
+  },
+        {
+    slug: "logo",
+    title: "logo",
+    category: "logo",
+    year: "2026",
+    role: "Graphic Designer",
+    description: "A series of logo that i made for a client.",
+    tools: ["Photoshop"],
+    coverImage: "/images/projects/logo 1.jpg",
+    images: [
+      "/images/projects/logo 1.jpg",
+      "/images/projects/logo 2.png",
+      "/images/projects/logo 3.png",
     ]
   }
   ,

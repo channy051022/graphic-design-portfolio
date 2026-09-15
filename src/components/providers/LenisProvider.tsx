@@ -5,10 +5,18 @@ import Lenis from "lenis";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
+import { usePathname } from "next/navigation";
 
 export function LenisProvider({ children }: { children: React.ReactNode }) {
   const lenisRef = useRef<Lenis | null>(null);
   const prefersReducedMotion = useReducedMotion();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    if (lenisRef.current) {
+      lenisRef.current.scrollTo(0, { immediate: true });
+    }
+  }, [pathname]);
 
   useEffect(() => {
     // Only initialize if reduced motion is not preferred

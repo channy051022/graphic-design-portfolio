@@ -74,7 +74,7 @@ export function ChatBot() {
 
       {/* Chat Window */}
       <div
-        className={`fixed bottom-24 right-6 z-50 w-full max-w-[350px] bg-background border border-border rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 origin-bottom-right ${
+        className={`fixed bottom-24 right-4 sm:right-6 z-50 w-[calc(100vw-2rem)] sm:w-[350px] max-w-full bg-background border border-border rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 origin-bottom-right ${
           isOpen ? "scale-100 opacity-100 pointer-events-auto" : "scale-50 opacity-0 pointer-events-none"
         }`}
       >

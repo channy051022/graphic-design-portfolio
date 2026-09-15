@@ -7,15 +7,13 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 const skillCategories = [
   {
     title: "DESIGN",
-    skills: ["Graphic Design", "Branding", "Typography", "Layout", "Visual Identity", "UI/UX"]
-  },
-  {
-    title: "DEVELOPMENT",
-    skills: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Vue", "Responsive Design"]
+    skills: ["Graphic Design", "Branding", "Typography", "Layout", "Visual Identity", "UI/UX", "Poster Design", "Logo Design", "Photo Editing", "Photo Manipulation", "DTF Printing", "Sticker Making", "Social Media Content Creation", "Logo Design",
+      "Sublimation Design"
+    ]
   },
   {
     title: "TOOLS",
-    skills: ["Figma", "Photoshop", "Illustrator", "Canva", "VS Code", "Git", "GitHub"]
+    skills: ["Figma", "Photoshop", "Illustrator", "Canva", "Trello"]
   }
 ];
 

@@ -12,20 +12,20 @@ export interface Project {
 
 export const projects: Project[] = [
         {
-    slug: "Custom Sticker",
+    slug: "custom-sticker",
     title: "Custom Sticker",
     category: "Sticker",
     year: "2026",
     role: "Graphic Designer",
     description: "A series of stickers for a custom sticker business.",
-    tools: ["Photoshop", "Figma"],
+    tools: ["Adobe Illustrator",],
     coverImage: "/images/projects/Motorcycle Sticker.png",
     images: [
       "/images/projects/Motorcycle Sticker.png"
     ]
   },
       {
-    slug: "Pubmats 2",
+    slug: "pubmats-2",
     title: "Pubmats 2",
     category: "Social Media Campaign",
     year: "2026",
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     ]
   },
       {
-    slug: "Posters",
+    slug: "posters",
     title: "Posters",
     category: "Posters",
     year: "2026",
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     ]
   },
       {
-    slug: "Corporation",
+    slug: "corporation",
     title: "Corporation",
     category: "Corporation",
     year: "2026",
@@ -64,7 +64,7 @@ export const projects: Project[] = [
     ]
   },
       {
-    slug: "Pubmats",
+    slug: "pubmats",
     title: "Pubmats",
     category: "Social Media Campaign",
     year: "2026",

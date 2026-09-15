@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const resolvedParams = await params;
-  const project = projects.find(p => p.slug === resolvedParams.slug);
+  const project = projects.find(p => p.slug === decodeURIComponent(resolvedParams.slug));
   
   if (!project) {
     return {
@@ -28,7 +28,7 @@ export async function generateStaticParams() {
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const projectIndex = projects.findIndex(p => p.slug === resolvedParams.slug);
+  const projectIndex = projects.findIndex(p => p.slug === decodeURIComponent(resolvedParams.slug));
   const project = projects[projectIndex];
 
   if (!project) {

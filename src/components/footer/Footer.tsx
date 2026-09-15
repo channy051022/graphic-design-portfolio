@@ -24,7 +24,7 @@ export function Footer() {
             <nav className="flex flex-col space-y-2 text-sm font-medium tracking-widest uppercase">
               <Link href="/work" className="hover:text-accent transition-colors md:text-right">Work</Link>
               <Link href="/about" className="hover:text-accent transition-colors md:text-right">About</Link>
-              <Link href="/experiments" className="hover:text-accent transition-colors md:text-right">Experiments</Link>
+              {/* <Link href="/experiments" className="hover:text-accent transition-colors md:text-right">Experiments</Link> */}
               <Link href="/contact" className="hover:text-accent transition-colors md:text-right">Contact</Link>
             </nav>
           </div>

@@ -13,7 +13,7 @@ const skillCategories = [
   },
   {
     title: "TOOLS",
-    skills: ["Figma", "Photoshop", "Illustrator", "Canva", "Trello"]
+    skills: ["Figma", "Photoshop", "Illustrator","CorelDraw", "Canva", "Trello"]
   }
 ];
 

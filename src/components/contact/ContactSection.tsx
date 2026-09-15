@@ -67,11 +67,8 @@ export function ContactSection() {
             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-sm font-bold tracking-[0.2em] uppercase hover:text-accent transition-colors">
               LinkedIn
             </a>
-            <a href="https://behance.net" target="_blank" rel="noreferrer" className="text-sm font-bold tracking-[0.2em] uppercase hover:text-accent transition-colors">
-              Behance
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-sm font-bold tracking-[0.2em] uppercase hover:text-accent transition-colors">
-              Instagram
+            <a href="https://www.facebook.com/christian.mestola.7" target="_blank" rel="noreferrer" className="text-sm font-bold tracking-[0.2em] uppercase hover:text-accent transition-colors">
+              Facebook
             </a>
           </div>
         </div>

@@ -18,8 +18,8 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "CHRISTIAN FAITH MESTOLA — Graphic Designer × Creative Developer",
-  description: "I turn ideas into visual experiences. Portfolio of Cyrel Balawag, Graphic Designer and Creative Frontend Developer.",
+  title: "CHRISTIAN FAITH MESTOLA — Graphic Designer",
+  description: "I turn ideas into visual experiences. Portfolio of Christian Faith Mestola, Graphic Designer",
 };
 
 export default function RootLayout({

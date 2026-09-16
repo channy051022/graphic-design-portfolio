@@ -63,7 +63,7 @@ export function Hero() {
               ref={subtitleRef}
               className="text-accent font-medium tracking-widest uppercase mb-4 md:mb-8 text-[10px] min-[375px]:text-xs sm:text-sm md:text-base opacity-0 relative z-20"
             >
-              Graphic Designer × Creative Developer
+              Graphic Designer
             </p>
             
             <h1 

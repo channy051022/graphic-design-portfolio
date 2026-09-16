@@ -16,7 +16,7 @@ export function Footer() {
               />
             </div>
             <p className="text-muted-foreground">
-              Graphic Designer × Creative Developer
+              Graphic Designer
             </p>
           </div>
           

@@ -38,8 +38,7 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
           <div ref={textRef} className="flex flex-col justify-center">
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-display font-black uppercase tracking-tighter mb-8 leading-[0.9]">
-              DESIGNER. <br />
-              DEVELOPER. <br />
+              GRAPHIC DESIGNER. <br />
               <span className="text-accent">PROBLEM SOLVER.</span>
             </h2>
             

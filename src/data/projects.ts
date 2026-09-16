@@ -29,6 +29,10 @@ export const projects: Project[] = [
       "/images/projects/bike6.jpg",
       "/images/projects/bike7.jpg",
       "/images/projects/bike8.jpg",
+      "/images/projects/bike9.jpg",
+      "/images/projects/bike10.jpg",
+      "/images/projects/bike11.jpg",
+      "/images/projects/bike12.jpg"
       
     ]
   },
@@ -39,7 +43,7 @@ export const projects: Project[] = [
     year: "2026",
     role: "Graphic Designer",
     description: "A series of Business Branding for a Business.",
-    tools: ["Photoshop", "Figma"],
+    tools: ["Photoshop"],
     coverImage: "/images/projects/brand poster 3.jpg",
     images: [
       "/images/projects/brand poster 3.jpg",
@@ -56,7 +60,7 @@ export const projects: Project[] = [
     year: "2026",
     role: "Graphic Designer",
     description: "A series of editorial posters exploring the relationship between Swiss graphic design principles and modern web brutalism.",
-    tools: ["Photoshop", "Figma"],
+    tools: ["Photoshop"],
     coverImage: "/images/projects/pubmats 1.jpg",
     images: [
       "/images/projects/pubmats 1.jpg",
@@ -73,7 +77,7 @@ export const projects: Project[] = [
     year: "2026",
     role: "Graphic Designer",
     description: "A series of posters that i made for a school event.",
-    tools: ["Photoshop", "Figma"],
+    tools: ["Photoshop"],
     coverImage: "/images/projects/poster design.jpg",
     images: [
       "/images/projects/poster design.jpg"

@@ -97,6 +97,21 @@ export const projects: Project[] = [
       "/images/projects/logo 2.png",
       "/images/projects/logo 3.png",
     ]
+  },
+        {
+    slug: "Youtube Thumbnail",
+    title: "Youtube Thumbnail",
+    category: "Youtube Thumbnail",
+    year: "2026",
+    role: "Graphic Designer",
+    description: "A series of Youtube Thumbnail that i made for a client.",
+    tools: ["Photoshop"],
+    coverImage: "/images/projects/thumb 1.jpg",
+    images: [
+      "/images/projects/thumb 1.jpg",
+      "/images/projects/thumb 2.jpg",
+      "/images/projects/thumb 3.jpg",
+      
+    ]
   }
-  ,
 ];

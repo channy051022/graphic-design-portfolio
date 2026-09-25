@@ -16,6 +16,7 @@ function cn(...inputs: ClassValue[]) {
 const navLinks = [
   { href: "/work", label: "WORK" },
   { href: "/about", label: "ABOUT" },
+  { href: "/resume", label: "RESUME" },
   // { href: "/experiments", label: "EXPERIMENTS" },
   { href: "/contact", label: "CONTACT" },
 ];

@@ -36,6 +36,26 @@ export const projects: Project[] = [
       
     ]
   },
+      {
+    slug: "Vihicle-Wrap",
+    title: "Vihicle Wrap",
+    category: "Wrap",
+    year: "2026",
+    role: "Graphic Designer",
+    description: "A series of Vihicle Wrap for a custom Vihicle.",
+    tools: ["Adobe Illustrator",],
+    coverImage: "/images/projects/wrap 4.jpg",
+    images: [
+      "/images/projects/wrap 1.jpg",
+      "/images/projects/wrap 2.jpg",
+      "/images/projects/wrap 3.jpg",
+      "/images/projects/wrap 4.jpg",
+      "/images/projects/wrap 5.png",
+      
+
+      
+    ]
+  },
      {
     slug: "Business Branding",
     title: "Business Branding",

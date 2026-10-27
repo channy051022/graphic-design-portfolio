@@ -19,12 +19,11 @@ export const projects: Project[] = [
     role: "Graphic Designer",
     description: "A series of stickers for a custom sticker business.",
     tools: ["Adobe Illustrator",],
-    coverImage: "/images/projects/Motor Cross Graphics/Frankie KTM E3 full custom.jpg",
+    coverImage: "/images/projects/Motor Cross Graphics/KX.jpg",
     images: [
-      "/images/projects/Motor Cross Graphics/Frankie KTM E3 full custom.jpg",
       "/images/projects/Motor Cross Graphics/full custom design.jpg",
       "/images/projects/Motor Cross Graphics/Full Custom Graphic Design Kit 1.jpg",
-      "/images/projects/Motor Cross Graphics/KX 250 25 D#1.jpg",
+      "/images/projects/Motor Cross Graphics/KX.jpg",
       "/images/projects/Motor Cross Graphics/KXF 450 2021 Full Custom Graphics Kit.jpg",
       "/images/projects/Motor Cross Graphics/sample.jpg",
       "/images/projects/Motor Cross Graphics/SX CUSTOM DESIGN Mickey Mouse.jpg"

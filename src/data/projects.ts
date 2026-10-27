@@ -19,21 +19,15 @@ export const projects: Project[] = [
     role: "Graphic Designer",
     description: "A series of stickers for a custom sticker business.",
     tools: ["Adobe Illustrator",],
-    coverImage: "/images/projects/bike7.jpg",
+    coverImage: "/images/projects/Motor Cross Graphics/Frankie KTM E3 full custom.jpg",
     images: [
-      "/images/projects/bike1.jpg",
-      "/images/projects/bike2.jpg",
-      "/images/projects/bike3.jpg",
-      "/images/projects/bike4.jpg",
-      "/images/projects/bike5.jpg",
-      "/images/projects/bike6.jpg",
-      "/images/projects/bike7.jpg",
-      "/images/projects/bike8.jpg",
-      "/images/projects/bike9.jpg",
-      "/images/projects/bike10.jpg",
-      "/images/projects/bike11.jpg",
-      "/images/projects/bike12.jpg"
-      
+      "/images/projects/Motor Cross Graphics/Frankie KTM E3 full custom.jpg",
+      "/images/projects/Motor Cross Graphics/full custom design.jpg",
+      "/images/projects/Motor Cross Graphics/Full Custom Graphic Design Kit 1.jpg",
+      "/images/projects/Motor Cross Graphics/KX 250 25 D#1.jpg",
+      "/images/projects/Motor Cross Graphics/KXF 450 2021 Full Custom Graphics Kit.jpg",
+      "/images/projects/Motor Cross Graphics/sample.jpg",
+      "/images/projects/Motor Cross Graphics/SX CUSTOM DESIGN Mickey Mouse.jpg"
     ]
   },
       {

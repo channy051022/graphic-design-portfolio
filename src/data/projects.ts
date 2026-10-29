@@ -127,21 +127,35 @@ export const projects: Project[] = [
     ]
   },
   {
+    slug: "packaging-design",
+    title: "Packaging Design",
+    category: "Packaging Design",
+    year: "2026",
+    role: "Graphic Designer",
+    description: "A series of packaging design mockups, labels, and product presentations.",
+    tools: ["Photoshop", "Adobe Illustrator"],
+    coverImage: "/images/projects/packaging design/1.jpg",
+    images: [
+      "/images/projects/packaging design/1.jpg",
+      "/images/projects/packaging design/CP power dupply.jpg",
+      "/images/projects/packaging design/KUP.jpg",
+      "/images/projects/packaging design/mangjuan.jpg",
+      "/images/projects/packaging design/sirenity perfume.jpg"
+    ]
+  },
+  {
     slug: "product-design",
     title: "Product Design",
     category: "Product Design",
     year: "2026",
     role: "Graphic Designer",
-    description: "A series of product and packaging design mockups, labels, and showcase presentations.",
+    description: "A series of product design showcases, mockups, and editorial design boards.",
     tools: ["Photoshop", "Adobe Illustrator"],
-    coverImage: "/images/projects/packaging design/Burgundy Headphones Editorial Design Board.png",
+    coverImage: "/images/projects/product design/Burgundy Headphones Editorial Design Board.png",
     images: [
-      "/images/projects/packaging design/Burgundy Headphones Editorial Design Board.png",
-      "/images/projects/packaging design/Crispy Chicken Packaging Mockup.png",
-      "/images/projects/packaging design/Mangkape Herbal Coffee Packaging Showcase.png",
-      "/images/projects/packaging design/Rectangular label - Christian Mestola.png",
-      "/images/projects/packaging design/Sonora Midnight Drive Headphones.png",
-      // "/images/projects/packaging design/TechCraft Digital Solutions Showcase.png"
+      "/images/projects/product design/Burgundy Headphones Editorial Design Board.png",
+      "/images/projects/product design/Sonora Midnight Drive Headphones.png",
+      "/images/projects/product design/TechCraft Digital Solutions Showcase.png"
     ]
   }
 ];

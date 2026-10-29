@@ -40,16 +40,16 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   return (
     <article className="min-h-screen bg-background">
       <div className="container mx-auto px-6 pt-16 pb-24 md:pt-24 md:pb-32">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 xl:gap-16">
           
           {/* Sidebar Info (Left Side) */}
-          <div className="lg:col-span-4">
-            <div className="sticky top-24">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-black uppercase tracking-tighter mb-8 leading-[0.9]">
+          <div className="lg:col-span-5 xl:col-span-4 min-w-0">
+            <div className="sticky top-28 z-10">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-display font-black uppercase tracking-tight mb-8 leading-[0.95] break-words">
                 {project.title}
               </h1>
               
-              <div className="flex flex-wrap gap-x-8 gap-y-4 py-6 border-t border-b border-border">
+              <div className="grid grid-cols-2 gap-x-6 gap-y-5 py-6 border-t border-b border-border">
                 <div>
                   <p className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">Category</p>
                   <p className="text-sm font-medium tracking-wide">{project.category}</p>
@@ -67,11 +67,17 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                   <p className="text-sm font-medium tracking-wide">{project.tools.join(", ")}</p>
                 </div>
               </div>
+
+              {project.description && (
+                <p className="mt-8 text-sm md:text-base text-muted-foreground leading-relaxed">
+                  {project.description}
+                </p>
+              )}
             </div>
           </div>
 
           {/* Images (Right Side) */}
-          <div className="lg:col-span-8">
+          <div className="lg:col-span-7 xl:col-span-8 min-w-0">
             <div className="space-y-8 md:space-y-16">
               {/* Visual Gallery */}
               {project.images.map((image, index) => (
@@ -86,7 +92,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                     height={1080}
                     priority={index === 0}
                     className="w-full h-auto"
-                    sizes="(max-width: 1024px) 100vw, 66vw"
+                    sizes="(max-width: 1024px) 100vw, (max-width: 1280px) 58vw, 66vw"
                   />
                 </div>
               ))}
